@@ -4,7 +4,7 @@
  <title>Rah-E-Hidayat</title>
  <link href="http://www.rahehidayat.ca/atom.xml" rel="self"/>
  <id>http://www.rahehidayat.ca</id>
- <updated>2018-04-15T22:55:44+00:00</updated>
+ <updated>2018-04-15T23:06:29+00:00</updated>
  <author>
    <name></name>
    <uri></uri>
@@ -15,8 +15,8 @@
 
  <entry>
    <title>Welcome</title>
-   <link href="http://www.rahehidayat.ca/what-is-islam"/>
-   <id>http://www.rahehidayat.ca/what-is-islam</id>
+   <link href="http://www.rahehidayat.ca/posts/what-is-islam"/>
+   <id>http://www.rahehidayat.ca/posts/what-is-islam</id>
    <updated>2017-09-03T17:05:01+00:00</updated>
    <content type="html">&lt;p&gt;Welcome&lt;/p&gt;
 </content>

@@ -1,9 +1,7 @@
----
----
-[{% for post in site.posts %}
+[
   {
-    "title": "{{ post.title | escape }}",
-    "tags": "{{ post.tags | join: ', ' }}", 
-    "url": "{{ site.baseurl }}{{ post.url }}", 
-    "date": "{{ post.date }}"
-  }{% unless forloop.last %},{% endunless %}{% endfor %}]
+    "title": "Welcome",
+    "tags": "religion", 
+    "url": "/what-is-islam", 
+    "date": "2017-09-03 17:05:01 +0000"
+  }]

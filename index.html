@@ -1,0 +1,61 @@
+---
+layout: default
+paginate:
+  limit: false
+  per_page: 8
+---
+<div class="row flex-row home-margin">
+	<div class="flex-col flex-1 no-pad">
+    <img src="/img/madina3.jpg" alt="medina">
+	</div>
+
+
+</div>
+
+<div class="row flex-row home-margin home-quran">
+  <div class="flex-col flex-1">
+    <img src="/img/content/Quran1.jpg" alt="">
+  </div>
+
+  <div class="flex-col flex-1 ">
+    <img src="/img/content/Quran2.jpg" alt="">
+  </div>
+
+</div>
+
+
+<!-- Posts -->
+
+<div class="wide-posts-container">
+
+	{% for post in paginator.posts limit: 8 %}		
+    {% include wide_posts.html %}
+
+  {% endfor %}
+
+</div>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">« Prev</a>
+  {% else %}
+    <span>« Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif forloop.index == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next »</a>
+  {% else %}
+    <span>Next »</span>
+  {% endif %}
+</div>
+{% endif %}

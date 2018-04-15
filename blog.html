@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+description: 
+---
+<h1 class="center">Blog</h1>
+<div class="center">
+</div>
+<!-- Posts -->
+
+<div class="wide-posts-container">
+
+	{% for post in site.posts limit: 8 %}		
+    {% include wide_posts.html %}
+
+  {% endfor %}
+
+</div>

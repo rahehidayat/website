@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	{% include menu.html %}
+    
+    <!-- Icon menu -->
+	  <a id="nav-menu">
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      {% include header.html %}
+
+    <!-- Main content -->
+	  <div class="container">
+		  
+		<main>
+
+			{{ content }}
+
+	  </main>
+
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    {% include footer.html %}
+
+	    <!-- Script -->
+      {% include script.html %}
+
+	</div>
+</body>
+</html>

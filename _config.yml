@@ -8,14 +8,16 @@ baseurl:  # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
-permalink: /:title
 collections:
   books:
     output: true
+    permalink: /:collection/:title
   hadees:
     output: true
+    permalink: /:collection/:title
   posts:
     output: true
+    permalink: /:collection/:title
 
 # Default values
 defaults:

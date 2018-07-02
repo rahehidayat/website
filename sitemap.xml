@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://www.rahehidayat.ca/books/islam_k_waqaat</loc>
+<loc>http://www.rahehidayat.ca/books/test</loc>
 <lastmod>2017-09-03T17:05:01+00:00</lastmod>
 </url>
 <url>
-<loc>http://www.rahehidayat.ca/books/test</loc>
-<lastmod>2017-09-03T17:05:01+00:00</lastmod>
+<loc>http://www.rahehidayat.ca/books/islam_k_waqaat</loc>
+<lastmod>2017-09-14T17:05:01+00:00</lastmod>
 </url>
 <url>
 <loc>http://www.rahehidayat.ca/hadees/hadees_1</loc>
@@ -41,6 +41,10 @@
 <url>
 <loc>http://www.rahehidayat.ca/uploads/2018/07/02/Stories%20Of%20islam.pdf</loc>
 <lastmod>2018-07-02T19:03:26+00:00</lastmod>
+</url>
+<url>
+<loc>http://www.rahehidayat.ca/uploads/2018/07/02/Straight%20Path%20to%20Jannah-1.pdf</loc>
+<lastmod>2018-07-02T19:04:03+00:00</lastmod>
 </url>
 <url>
 <loc>http://www.rahehidayat.ca/uploads/2018/07/02/Straight%20Path%20to%20Jannah.pdf</loc>

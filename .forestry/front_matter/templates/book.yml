@@ -33,3 +33,5 @@ fields:
   description: Upload PDF here
   config:
     maxSize: '20'
+pages:
+- _books/islam_k_waqaat.md

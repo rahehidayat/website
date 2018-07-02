@@ -27,3 +27,9 @@ fields:
   type: file
   hidden: false
   default: ''
+- type: file
+  name: pdf
+  label: PDF
+  description: Upload PDF here
+  config:
+    maxSize: '20'

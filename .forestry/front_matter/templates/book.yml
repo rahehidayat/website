@@ -34,4 +34,5 @@ fields:
   config:
     maxSize: '20'
 pages:
+- _books/test.md
 - _books/islam_k_waqaat.md

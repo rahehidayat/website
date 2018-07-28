@@ -5,7 +5,7 @@ categories:
 - islam
 tags:
 - islam
-image: "/uploads/2018/07/02/Straight Path to Jannah-1.pdf"
+image: "/uploads/2018/07/28/Title12.jpg"
 pdf: "/uploads/2018/07/02/Straight Path to Jannah-1.pdf"
 
 ---

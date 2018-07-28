@@ -3,17 +3,21 @@ new_page_extension: html
 auto_deploy: true
 admin_path: 
 webhook_url: 
-collections:
-- path: _posts
+sections:
+- type: jekyll-posts
   label: Posts
   create: all
-- path: _books
+- type: directory
+  path: _books
   label: Books
   create: all
-- path: _hadees
+  match: "**/*"
+- type: directory
+  path: _hadees
   label: Hadees
   create: all
-- path: ''
+  match: "**/*"
+- type: jekyll-pages
   label: Pages
   create: all
 upload_dir: uploads

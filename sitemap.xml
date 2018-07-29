@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://www.rahehidayat.ca/books/stories-of-islam</loc>
+<lastmod>2018-07-29T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://www.rahehidayat.ca/books/straight-path-to-jannah</loc>
 <lastmod>2018-07-29T00:00:00+00:00</lastmod>
 </url>
@@ -29,6 +33,10 @@
 </url>
 <url>
 <loc>http://www.rahehidayat.ca/quran.html</loc>
+</url>
+<url>
+<loc>http://www.rahehidayat.ca/uploads/2018/07/29/Stories%20Of%20islam.pdf</loc>
+<lastmod>2018-07-29T01:07:36+00:00</lastmod>
 </url>
 <url>
 <loc>http://www.rahehidayat.ca/uploads/2018/07/29/Straight%20Path%20to%20Jannah.pdf</loc>

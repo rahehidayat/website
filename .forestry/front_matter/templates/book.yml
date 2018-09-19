@@ -35,5 +35,6 @@ fields:
   config:
     maxSize: '20'
 pages:
+- _books/Islamic-Stories.html
 - _books/Straight-Path-to-Jannah.html
 - _books/Straight-Path-to-Jannah.html

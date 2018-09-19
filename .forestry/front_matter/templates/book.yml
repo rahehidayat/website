@@ -34,3 +34,6 @@ fields:
   description: Upload PDF here
   config:
     maxSize: '20'
+pages:
+- _books/Straight-Path-to-Jannah.html
+- _books/Straight-Path-to-Jannah.html

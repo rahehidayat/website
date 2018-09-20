@@ -54,4 +54,5 @@ fields:
   description: If embedding a youtube video, just paste the video ID part from the
     url. The ID after youtube.com/watch?v=
 pages:
+- _hadees/Hadees-E-Rasool.html
 - _posts/2017-10-22-what-is-islam.md
